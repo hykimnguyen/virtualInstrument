@@ -1,0 +1,140 @@
+[InitializeDIO_TB]
+Class="Function"
+Prototype="void InitializeDIO_TB(char *DIOConfigurationFile, int MainPanelHandle);"
+
+[UpdateDIOInputs_TB]
+Class="Function"
+Prototype="void UpdateDIOInputs_TB();"
+
+[CreateDIODebugPanel]
+Class="Function"
+Prototype="void CreateDIODebugPanel(int MainPanelHandle);"
+
+[AddRowDIOConfigTableCB]
+Class="Function"
+Prototype="int AddRowDIOConfigTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DelRowDIOConfigTableCB]
+Class="Function"
+Prototype="int DelRowDIOConfigTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[UpdateDIOOutputs_TB]
+Class="Function"
+Prototype="void UpdateDIOOutputs_TB();"
+
+[ToogleDIOOutput]
+Class="Function"
+Prototype="int ToogleDIOOutput(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DIOOutputLink]
+Class="Function"
+Prototype="void DIOOutputLink(char *SignalName);"
+
+[ToggleSignal_TB]
+Class="Function"
+Prototype="void ToggleSignal_TB(char *SignalName);"
+
+[GetNumOfDIOInputs]
+Class="Function"
+Prototype="int GetNumOfDIOInputs();"
+
+[GetNumOfDIOOutputs]
+Class="Function"
+Prototype="int GetNumOfDIOOutputs();"
+
+[DIOHwCtrlPanelEvent]
+Class="Function"
+Prototype="int DIOHwCtrlPanelEvent(int panelHandle, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CreateDIOConfigurationTable]
+Class="Function"
+Prototype="void CreateDIOConfigurationTable(char *filePath, int MainPanelHandle);"
+
+[DIOTableCBFunction]
+Class="Function"
+Prototype="int DIOTableCBFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitDIOConfigTableCB]
+Class="Function"
+Prototype="int QuitDIOConfigTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitDIODebugCB]
+Class="Function"
+Prototype="int QuitDIODebugCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SaveDIOConfigTableCB]
+Class="Function"
+Prototype="int SaveDIOConfigTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SaveBackupXmlFilenameDIO]
+Class="Function"
+Prototype="int SaveBackupXmlFilenameDIO(const char *filename);"
+
+[ReadDIOConfigurationFile]
+Class="Function"
+Prototype="int ReadDIOConfigurationFile(char *filePath);"
+
+[SortDIOFileInfo]
+Class="Function"
+Prototype="void SortDIOFileInfo();"
+
+[LoadDIOConfigFile]
+Class="Function"
+Prototype="void LoadDIOConfigFile();"
+
+[WriteDIOSignal]
+Class="Function"
+Prototype="int WriteDIOSignal(char *SignalName, int Value);"
+
+[ReadDIOSignal]
+Class="Function"
+Prototype="int ReadDIOSignal(char *SignalName);"
+
+[FindChanelFromSignalName_TB]
+Class="Function"
+Prototype="int FindChanelFromSignalName_TB(char *SignalName, char *Direction, char *InverseLogic);"
+
+[ReadDigitalLines]
+Class="Function"
+Prototype="int ReadDigitalLines(char *SignalName);"
+
+[WriteDigitalLines]
+Class="Function"
+Prototype="void WriteDigitalLines(char *SignalName, int Data);"
+
+[GetDIODebugPanelHandle]
+Class="Function"
+Prototype="int GetDIODebugPanelHandle();"
+
+[GetDIOConfigurationPanelHandle]
+Class="Function"
+Prototype="int GetDIOConfigurationPanelHandle();"
+
+[GetDioPanelLoadStatus]
+Class="Function"
+Prototype="int GetDioPanelLoadStatus();"
+
+[ISValidXMLDIO]
+Class="Function"
+Prototype="int ISValidXMLDIO(char *string);"
+
+[LoadDIOPanel]
+Class="Function"
+Prototype="int LoadDIOPanel(char *DIODirectory);"
+
+[DebugPanel]
+Class="Function"
+Prototype="int DebugPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Timer_Display]
+Class="Function"
+Prototype="int Timer_Display(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[quitPanel]
+Class="Function"
+Prototype="int quitPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[configPanel]
+Class="Function"
+Prototype="int configPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -1,0 +1,102 @@
+#include "C:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
+
+
+2 24 "c:\\Users\\Michael_Foe\\Desktop\\Projects\\Codes\\1.0 LabWindows\\DIO_TB\\cvibuild.DIO_TB\\Debug\\manifest.xml"
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  ""
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x1L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DIO_TB (Debug x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "DIO_TB\0"
+            VALUE "LegalCopyright", "Copyright   2017\0"
+            VALUE "OriginalFilename", "DIO_TB.dll\0"
+            VALUE "ProductName", " DIO_TB\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END
+
+CVIDLLexports CVIDLLprototypes
+{
+   "int AddRowDIOConfigTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "void CreateDIOConfigurationTable(char *filePath, int MainPanelHandle);"
+   "\n",
+   "void CreateDIODebugPanel(int MainPanelHandle);"
+   "\n",
+   "int DIOHwCtrlPanelEvent(int panelHandle, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int DIOTableCBFunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int DebugPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int DelRowDIOConfigTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int GetDIOConfigurationPanelHandle();"
+   "\n",
+   "int GetDIODebugPanelHandle();"
+   "\n",
+   "int GetDioPanelLoadStatus();"
+   "\n",
+   "int GetNumOfDIOInputs();"
+   "\n",
+   "int GetNumOfDIOOutputs();"
+   "\n",
+   "int ISValidXMLDIO(char *string);"
+   "\n",
+   "void InitializeDIO_TB(char *DIOConfigurationFile, int MainPanelHandle);"
+   "\n",
+   "void LoadDIOConfigFile();"
+   "\n",
+   "int LoadDIOPanel(char *DIODirectory);"
+   "\n",
+   "int QuitDIOConfigTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int QuitDIODebugCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int ReadDIOConfigurationFile(char *filePath);"
+   "\n",
+   "int ReadDIOSignal(char *SignalName);"
+   "\n",
+   "int SaveBackupXmlFilenameDIO(const char *filename);"
+   "\n",
+   "int SaveDIOConfigTableCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "void SortDIOFileInfo();"
+   "\n",
+   "void StopDIOInputUpdate();"
+   "\n",
+   "int Timer_Display(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int ToogleDIOOutput(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int WriteDIOSignal(char *SignalName, int Value);"
+   "\n",
+   "int configPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int quitPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "\0"
+}

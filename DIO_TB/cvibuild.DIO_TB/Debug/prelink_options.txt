@@ -1,0 +1,5 @@
+-inrc c:\Users\Michael_Foe\Desktop\Projects\Codes\1.0 LabWindows\DIO_TB\cvibuild.DIO_TB\Debug\resources.in.rc
+-outrc c:\Users\Michael_Foe\Desktop\Projects\Codes\1.0 LabWindows\DIO_TB\cvibuild.DIO_TB\Debug\resources.out.rc
+-outdef c:\Users\Michael_Foe\Desktop\Projects\Codes\1.0 LabWindows\DIO_TB\cvibuild.DIO_TB\Debug\DIO_TB.dll.defs
+-indefprot c:\Users\Michael_Foe\Desktop\Projects\Codes\1.0 LabWindows\DIO_TB\cvibuild.DIO_TB\Debug\DIO_TB.obj.cvidefprots
+-dllName DIO_TB.dll
